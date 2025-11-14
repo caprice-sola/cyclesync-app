@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+CycleSync
+A cycle-aware training planner for people with menstrual cycles.
+<br /> <p align="center"> <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs" /> <img src="https://img.shields.io/badge/React-20232A?logo=react" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript" /> <img src="https://img.shields.io/badge/TailwindCSS-38bdf8?logo=tailwindcss" /> <img src="https://img.shields.io/badge/shadcn/ui-black?logo=shadcnui" /> </p> <br />
 
-## Getting Started
+CycleSync is a cycle-aware training planner that helps people with menstrual cycles organize weekly workouts, log daily performance, and understand patterns across hormonal phases.
 
-First, run the development server:
+Originally created for pole, strength training, and functional fitness, CycleSync is designed for anyone whose performance fluctuates across their cycle, regardless of gender identity. If you have a cycle — this app is built with you in mind.
 
-```bash
+Why CycleSync?
+
+Most fitness apps assume that performance, energy, and recovery are stable week to week. But for cyclical athletes, that simply isn’t true. Hormonal shifts influence strength, motivation, endurance, sleep, and recovery.
+
+CycleSync helps you train in alignment with your physiology, not against it:
+
+Plan smarter
+
+Adjust intensity intuitively
+
+Track energy, RPE, and sleep
+
+Identify patterns across cycle phases
+
+Prevent burnout
+
+Celebrate your natural rhythm
+
+No gendered assumptions. No medicalization. Just data-driven awareness and supportive design.
+
+Features
+Weekly Training Planner
+
+Add planned sessions
+
+Set weekly goals & intentions
+
+Tag each week by cycle phase
+
+Visual clarity for load balancing
+
+Daily Log
+
+Planned vs Actual sessions
+
+Energy, RPE, Sleep (nullable)
+
+Free-form notes
+
+Smooth, intuitive UX
+
+Insights Dashboard
+
+Phase-based averages
+
+Shows per-metric entry counts
+
+Gracefully displays “no data yet”
+
+Builds long-term self-awareness
+
+Local & Private
+
+Uses LocalStorage
+
+No backend
+
+No account needed
+
+All data stays on your device
+
+Modern UI
+
+Clean design using shadcn/ui
+
+Responsive TailwindCSS
+
+Smooth interactions
+
+Thoughtful layout
+
+
+Tech Stack
+
+Next.js (App Router)
+
+React
+
+TypeScript
+
+TailwindCSS
+
+shadcn/ui
+
+LocalStorage persistence
+
+Zero backend for now
+
+Getting Started
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Then visit:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+http://localhost:3000
 
-## Learn More
+Project Structure
+src/
+  app/
+    page.tsx          # Main interface
+  components/ui/       # shadcn components
+  lib/                 # utilities
+public/
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Developed by
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Caprice Sola
+GitHub: @caprice-sola
 
-## Deploy on Vercel
+License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT License
+Feel free to fork, explore, and build upon CycleSync.
