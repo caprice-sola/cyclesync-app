@@ -1,100 +1,102 @@
-CycleSync
-A cycle-aware training planner for people with menstrual cycles.
+**CycleSync**
+_A cycle-aware training planner for people with menstrual cycles._
 <br /> <p align="center"> <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs" /> <img src="https://img.shields.io/badge/React-20232A?logo=react" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript" /> <img src="https://img.shields.io/badge/TailwindCSS-38bdf8?logo=tailwindcss" /> <img src="https://img.shields.io/badge/shadcn/ui-black?logo=shadcnui" /> </p> <br />
 
 CycleSync is a cycle-aware training planner that helps people with menstrual cycles organize weekly workouts, log daily performance, and understand patterns across hormonal phases.
 
 Originally created for pole, strength training, and functional fitness, CycleSync is designed for anyone whose performance fluctuates across their cycle, regardless of gender identity. If you have a cycle — this app is built with you in mind.
 
-Why CycleSync?
+**Why CycleSync?**
 
 Most fitness apps assume that performance, energy, and recovery are stable week to week. But for cyclical athletes, that simply isn’t true. Hormonal shifts influence strength, motivation, endurance, sleep, and recovery.
 
 CycleSync helps you train in alignment with your physiology, not against it:
 
-Plan smarter
+- Plan smarter
 
-Adjust intensity intuitively
+- Adjust intensity intuitively
 
-Track energy, RPE, and sleep
+- Track energy, RPE, and sleep
 
-Identify patterns across cycle phases
+- Identify patterns across cycle phases
 
-Prevent burnout
+- Prevent burnout
 
-Celebrate your natural rhythm
+- Celebrate your natural rhythm
 
 No gendered assumptions. No medicalization. Just data-driven awareness and supportive design.
 
-Features
-Weekly Training Planner
+**Features**
 
-Add planned sessions
+_Weekly Training Planner_
 
-Set weekly goals & intentions
+- Add planned sessions
 
-Tag each week by cycle phase
+- Set weekly goals & intentions
 
-Visual clarity for load balancing
+- Tag each week by cycle phase
 
-Daily Log
+- Visual clarity for load balancing
 
-Planned vs Actual sessions
+_Daily Log_
 
-Energy, RPE, Sleep (nullable)
+- Planned vs Actual sessions
 
-Free-form notes
+- Energy, RPE, Sleep (nullable)
 
-Smooth, intuitive UX
+- Free-form notes
 
-Insights Dashboard
+- Smooth, intuitive UX
 
-Phase-based averages
+_Insights Dashboard_
 
-Shows per-metric entry counts
+- Phase-based averages
 
-Gracefully displays “no data yet”
+- Shows per-metric entry counts
 
-Builds long-term self-awareness
+- Gracefully displays “no data yet”
 
-Local & Private
+- Builds long-term self-awareness
 
-Uses LocalStorage
+_Local & Private_
 
-No backend
+- Uses LocalStorage
 
-No account needed
+- No backend
 
-All data stays on your device
+- No account needed
 
-Modern UI
+- All data stays on your device
 
-Clean design using shadcn/ui
+_Modern UI_
 
-Responsive TailwindCSS
+- Clean design using shadcn/ui
 
-Smooth interactions
+- Responsive TailwindCSS
 
-Thoughtful layout
+- Smooth interactions
+
+- Thoughtful layout
 
 
-Tech Stack
+__Tech Stack__
 
-Next.js (App Router)
+- Next.js (App Router)
 
-React
+- React
 
-TypeScript
+- TypeScript
 
-TailwindCSS
+- TailwindCSS
 
-shadcn/ui
+- shadcn/ui
 
-LocalStorage persistence
+- LocalStorage persistence
 
-Zero backend for now
+- Zero backend for now
 
-Getting Started
+__Getting Started__
+
 npm install
 npm run dev
 
@@ -103,7 +105,8 @@ Then visit:
 
 http://localhost:3000
 
-Project Structure
+**Project Structure**
+
 src/
   app/
     page.tsx          # Main interface
@@ -112,12 +115,12 @@ src/
 public/
 
 
-Developed by
+**Developed by**
 
 Caprice Sola
 GitHub: @caprice-sola
 
-License
+**License**
 
 MIT License
 Feel free to fork, explore, and build upon CycleSync.
